@@ -1,0 +1,5 @@
+print("你好！我是你的AI助手。")
+name=input("请告诉我你的名字")
+hobby=input("你平时喜欢干什么？")
+print("很高兴认识你，"+name+"！")
+print("原来你喜欢"+hobby+"，听起来很棒！")
