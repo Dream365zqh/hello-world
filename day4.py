@@ -1,11 +1,11 @@
 import random
-secret_number = random.randint(1,100)
+secret_number = random.randint(1,1000)
 count = 0
 
 min_num = 1
-max_num = 100
+max_num = 1000
 
-print("我想到一个1到100之间的数字，你猜猜看!")
+print("我想到一个1到1000之间的数字，你猜猜看!")
 
 while True:
     guess = int(input(f"请输入你猜的数字(当前范围：{min_num}-{max_num}):"))
